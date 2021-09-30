@@ -63,9 +63,9 @@ p {
     border: tomato solid 1px;
 }
 .swiper img{
-/*    object-fit: contain;
-    max-width: 100%;
-    height: 100%;*/
+    object-fit: contain;
+    max-width: 100vw;
+    max-height: 100vh;
 }
 .swiper-slide{
     display: flex;
