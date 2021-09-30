@@ -26,12 +26,12 @@ body {
     /*
     отступы для текста по бокам
     */
-/*    padding-left: 1rem;
-    padding-right: 1rem;*/
+    /*    padding-left: 1rem;
+        padding-right: 1rem;*/
 }
 
 .header,
-.footer{
+.footer {
     background: #333;
     color: #fff;
     padding-bottom: 1rem;
@@ -68,8 +68,6 @@ p {
 }
 
 .swiper img {
-    /*object-fit: contain;*/
-    object-fit: cover;
     min-width: 50vh;
     max-width: 80vw;
     min-height: 50vh;
@@ -81,6 +79,26 @@ p {
     display: flex;
     align-items: center;
     justify-content: center;
-/*    margin-left: 1rem;
-    margin-right: 1rem;*/
+    /*    margin-left: 1rem;
+        margin-right: 1rem;*/
+}
+
+.berlin img {
+    object-fit: fill;
+}
+
+.barcelona img {
+    object-fit: contain;
+}
+
+.moscow img {
+    object-fit: cover;
+}
+
+.nature img {
+    object-fit: scale-down;
+}
+
+.car img {
+    object-fit: none;
 }
