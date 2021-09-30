@@ -23,11 +23,15 @@ body {
 }
 
 .content-section {
-    padding-left: 1rem;
-    padding-right: 1rem;
+    /*
+    отступы для текста по бокам
+    */
+/*    padding-left: 1rem;
+    padding-right: 1rem;*/
 }
 
-.header {
+.header,
+.footer{
     background: #333;
     color: #fff;
     padding-bottom: 1rem;
@@ -64,7 +68,8 @@ p {
 }
 
 .swiper img {
-    object-fit: contain;
+    /*object-fit: contain;*/
+    object-fit: cover;
     min-width: 50vh;
     max-width: 80vw;
     min-height: 50vh;
@@ -76,4 +81,6 @@ p {
     display: flex;
     align-items: center;
     justify-content: center;
+/*    margin-left: 1rem;
+    margin-right: 1rem;*/
 }
