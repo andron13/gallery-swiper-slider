@@ -1,0 +1,74 @@
+html {
+    /* Typography */
+    font-size: 62.5%;
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.5;
+    letter-spacing: .05rem;
+    text-align: justify;
+
+    /* Visual */
+    box-sizing: border-box;
+
+    /*    Плавная прокрутка по якорям    */
+    /*scroll-behavior: smooth;*/
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+body {
+    font-size: 1.6rem;
+    background: tomato;
+}
+
+.content-section {
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.header {
+    background: #333;
+    color: #fff;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+}
+
+h1 {
+    text-align: center;
+    font-size: 2.5rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+h2 {
+    text-align: center;
+    font-size: 2.3rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+p {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+/*Swiper Style*/
+
+.swiper {
+    width: 600px;
+    height: 300px;
+    border: tomato solid 1px;
+}
+.swiper img{
+/*    object-fit: contain;
+    max-width: 100%;
+    height: 100%;*/
+}
+.swiper-slide{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
